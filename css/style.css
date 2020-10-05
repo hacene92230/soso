@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+body {
+	scroll-behavior: smooth;
+	background: rgb(252, 252, 252) !important;
+}
+
+.fas {
+	width: 25px !important;
+}
+
+.dropdown-item {
+	margin-top: 10px !important;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.dropdown-item {
+	text-transform: uppercase;
+}
+
+.navbar {
+	position: fixed !important;
+	background: rgb(0,0,0,0) !important;
+	padding: 25px !important;
+	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	transition: background 200ms linear;
+}
+
+.navbar-dark {
+	background: rgb(0,0,0,0) !important;
+	color: white !important;
+}
+
+.navbar-dark .nav-link {
+	color: white !important;
+}
+
+.navbar-dark .customdropdown {
+	color: white !important;
+}
+
+.navbar-dark .nav-link:hover {
+	border-bottom: 5px solid white;
+}
+
+.navbar-light {
+	background: rgb(255,255,255) !important;
+	color: black !important;
+}
+
+.navbar-light .nav-link {
+	color: black !important;
+}
+
+.navbar-light .nav-link:hover {
+	border-bottom: 5px solid black;
+}
+
+.navbar-brand {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 23px !important;
+}
+
+.nav-link {
+	border-bottom: 5px solid rgb(0,0,0,0);
+  	margin-right: 5px !important;
+	margin-left: 20px !important;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+.nav-link:hover {
+	transition:1000ms ease;
+}
+
+.wallpaper {
+	background: #77c4e3;
+	background: linear-gradient(to bottom left,#7a7a7a,#565656);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+	background-size: cover;
+	background-position: center;
+	height: 820px;
+	width: 100%;
+}
+
+.wallpaper h1 {
+	position: relative;
+	color: white;
+	text-align: center;
+	top: 35%;
+}
+
+.headerinfo {
+	position: absolute;
+	width: 100%;
+	background: rgb(20, 169, 229, 0.2);
+	top: 630px;
+	padding: 50px;
+	color: white;
+	height: 150px;
+}
+
+.headerinfo form {
+	text-align: center;
+}
+
+.headerinfo .joinus {
+	font-size: 24px;
+	text-align: center;
+	margin-top: -25px;
+}
+
+.headerinfo input {
+	width: 200px;
+	border: none;
+	padding: 5px 20px;
+	margin-right: 15px;
+}
+
+.headerinfo input[type="submit"] {
+	background: rgb(255, 167, 79);
+	border-radius: 8px;
+	color: white;
+}
+
+.headerinfo .info {
+	text-align: center;
+	font-size: 12px;
+}
+
+.headerinfo-xs {
+	position: absolute;
+	width: 100%;
+	background: rgb(20, 169, 229, 0.2);
+	top: 630px;
+	padding: 50px;
+	color: white;
+	height: 150px;
+}
+
+.headerinfo-xs .textinfo {
+	text-align: center;
+	font-size: 24px;
+}
+
+.headerinfo-xs .textinfo .buttoninscrire {
+	font-size: 18px;
+	padding: 10px 15px;
+	background: rgb(255, 167, 79);
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	.headerinfo-xs .textinfo {
+		font-size: 14px;
+	}
+
+	.headerinfo-xs .textinfo .buttoninscrire {
+		font-size: 14px;
+	}
+}
+
+hr {
+	border-color: black !important;
+	opacity: 0.5;
+	width: 75%;
+	margin-top: 30px !important;
+}
+
+.about {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 30px;
+}
+
+.about h1 {
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.cookies {
+	position: fixed;
+	background: red;
+	width: 350px;
+	height: auto;
+	padding: 20px;
+	bottom: 50px;
+	right: 50px;
+	float: right;
+	background: rgb(35, 35, 35);
+	border-radius: 6px;
+	color: white;
+}
+
+@media screen and (max-width: 600px) {
+	.cookies {
+		right: 10px;
+		bottom: 10px;
+	}
+}
+
+.cookies button {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 5px 15px;
+	background: white;
+	border: none;
+	color: black;
+}
+
+.cookies button:nth-child(3n) {
+ 	background: rgb(255,255,255,0.8);
+ 	border-style: dashed;
+ 	border-width: 1px;
+ 	border-color: white;
+}
+
+.footer {
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	background: #565656;
+}
+
+@media screen and (max-width: 500px) {
+	.footer {
+		display: none;
+	}
+}
+
+.footer ul {
+	text-align: center;
+	list-style: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: white;
+}
+
+.footer li {
+	list-style: none;
+	display: inline-block;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+
+.footer a {
+	color: white !important;
+}
+
+.footer .copyright {
+	margin-top: 0px;
+	display: block;
+}
+
+
+.about h2 {
+	margin-top: 30px;
+}
+
+.about .fas {
+	font-size: 18px;
+}
+
+.about a {
+	color: black !important;
+	font-weight: bold;
+}
+
+.sectiontext {
+	margin-top: 150px;
+}
+
+.sectiontext h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.sectiontext h2 {
+	margin-top: 25px;
+}
+
+.sectiontext h5 {
+	margin-top: 3px;
+	text-align: center;
+}
+
+.sectiontext input {
+	width: 280px;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	background: transparent;
+	padding: 10px;
+	margin-top: 25px;
+	border: 2px solid #ff5b5b;
+	border-radius: 24px;
+	transition: ease 500ms;
+}
+
+.sectiontext textarea {
+	width: 280px;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	background: transparent;
+	padding: 10px;
+	margin-top: 25px;
+	border: 2px solid #ff5b5b;
+	border-radius: 24px;
+	transition: ease 500ms;
+}
+
+.sectiontext h3 {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.sectiontext label {
+	text-align: center !important;
+	font-size: 14px;
+	display: block;
+	margin-top: 15px;
+	margin-bottom: -10px;
+}
+
+.sectiontext select {
+	margin-top: 10px !important;
+	display: block !important;
+	margin: 0 auto !important;
+	width: 280px;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0px;
+	background: transparent;
+	padding: 10px;
+	margin-top: 25px;
+	border: 2px solid #ff5b5b;
+	border-radius: 24px;
+	transition: ease 500ms;
+}
+
+.sectiontext input[type = "checkbox"] {
+	display: inline-block;
+	width: 30px;
+}
+
+.sectiontext input[type = "text"]:focus, .sectiontext input[type = "password"]:focus {
+	width: 320px;
+	border: 2px solid green;
+}
+
+.sectiontext textarea:focus{
+	width: 320px;
+	border: 2px solid green;
+}
+
+@media screen and (max-width: 350px) {
+	.sectiontext input[type = "text"]:focus, .sectiontext input[type = "password"]:focus {
+		width: 280px;
+	}
+}
+
+.sectiontext input[type = "submit"] {
+	border: 2px solid green;
+	transition: ease 500ms;
+}
+
+.sectiontext input[type = "submit"]:hover {
+	background: green;
+	color: white;
+}
+
+.customdropdown {
+	background: none !important;
+	border: none !important;
+	overflow: hidden !important;
+	color: black !important;
+	box-shadow: none !important;
+    outline: 0 !important;
+    text-transform: uppercase;
+}
+
+.profil h4 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.profil h2 {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.profil button {
+	display: block;
+	margin: 0 auto;
+	padding: 15px 50px;
+	background: none;
+	border: none;
+	overflow: none;
+	outline: none;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	width: 300px;
+}
+
+.profil button:hover {
+	transition: ease 1000ms;
+	background: black;
+	color: white;
+}
+
+.error {
+    color: #ff8426;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.infos .col-md-4 {
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.infos .col-md-4 span {
+	font-weight: bold;
+}
